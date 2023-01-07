@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+}
+header{
+    background:url(../images/banner/banner1.png);
+    width: 100%;
+    height: 808px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header .banner{
+    width: 1140px;
+    background: #000;
+    margin: 0 auto;
+}
+header .banner .banner-text{
+    width: 525px;
+    float: right;
+    margin-top: 210px;
+}
+header .banner .banner-text h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    text-align: right;
+
+}
+header .banner .banner-text h2{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    padding-top: 35px;
+    color: #444343;
+    text-align: right;
+}
+header .banner .banner-text button{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #F15B22;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin-top: 35px;
+    float: right;
+}
+/* .............banner part ends............ */
+.failures{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 125px;
+}
+.failures .failures-text h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-left: 131px;
+    padding-top: 250px;
+}
+.failures .failures-text h2{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-left: 131px;
+    padding-top: 20px;
+}
+.failures .failures-text ul{
+    padding-top: 16px;
+    padding-left: 131px;
+}
+.failures .failures-text ul li{
+    display: flex;
+}
+.failures .failures-text ul li i{
+    color: #16D887;
+    font-size: 16px;
+    padding-right: 10px;
+
+}
+.failures .failures-text ul li p{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+}
+/* .failures parts ends////////////////// */
+.plan{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.plan .plan-text h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+.plan .plan-icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.plan .plan-icon .icon{
+    align-items: center;
+    text-align: center;
+}
+.plan .plan-icon .web > img{
+    /* padding-left: 100px; */
+}
+.plan .plan-icon .icon h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan .plan-icon .icon p{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-top: 10px;
+}
+/* plan parts ends...................... */
+.positive{
+    width: 1140px;
+    height: 300px;
+    background:url(../images/gradient2.png),url(../images/watch.png);
+    margin:  0 auto;
+    margin-top: 125px;
+}
+.positive h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 59px;
+    padding-left: 64px;
+}
+.positive button{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: none;
+    background: #fffff;
+    margin-left: 64px;
+    padding: 20px 35px;
+    border-radius: 5px;
+    margin-top:20px;
+}
+/* .............postive part ends.......... */
+.service-part{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.service-part .service{
+    height: 730px;
+}
+.service-part .service .row-1{
+    width: 1140px;
+    height: 190px;
+}
+.service-part .service .row-2{
+    width: 1140px;
+    height: 540px;
+   display: flex;
+    text-align: center;
+}
+.service-part .service .row-1 h2{
+    color: #242424;
+    font-size: 48px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 60px;
+}
+.service-part .service .row-2 .col-1{
+    width: 380px;
+    height: 540px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service-part .service .row-2 .col-2{
+    width: 380px;
+    height: 540px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service-part .service .row-2 .col-3{
+    width: 380px;
+    height: 540px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service-part .service .row-2 i{
+    font-size: 50px;
+    color: #F15B22;
+    margin-top: 80px;
+}
+.service-part .service .row-2 h3{
+    color: #242424;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    padding-top: 50px;
+}
+.service-part .service .row-2 p{
+    color: #878787;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    padding-top: 25px;
+    line-height: 24px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.service-part .row-2 a{
+    color: #fff;
+    background: #F15B22;
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    transition: all linear 0.3s;
+}
+/* ..................service part ends,,,,,,,,,,,,,,,,, */
+footer{
+    background: #151414;
+}
+ footer .footer-part{
+    width: 1140px;
+    height: 580px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ footer .footer-part .text{
+    width: 485px;
+    height: 318px;
+   margin-top: 130px;
+ }
+ footer .footer-part .subscrive{
+    width: 325px;
+    height: 204px;
+    margin-top: 130px;
+    display: block;
+ }
+ footer .footer-part .text h1{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    padding-bottom: 16px;
+ }
+ footer .footer-part .text h2{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+ }
+ footer .footer-part .text p{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+ }
+ footer .footer-part .text ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 25px;
+    padding-left: 0;
+ }
+ footer .footer-part .text ul li{
+    padding-right: 17px;
+ }
+ footer .footer-part .subscrive h1{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+ }
+ footer .footer-part .subscrive label #sub{
+    width: 320px;
+    height: 64px;
+    background: #151414;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+
+ }
+ footer .footer-part .subscrive button{
+    color: #F15B22;
+    background: #ffff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+ }
